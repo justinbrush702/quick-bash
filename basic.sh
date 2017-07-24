@@ -6,9 +6,9 @@
 
 # Reload .bash_profile via the 'source' command
 reload () {
-  echo Reloading .bash_profile...
+  echo "Reloading .bash_profile..."
 	source ~/.bash_profile
-	echo .bash_profile reloaded.
+	echo ".bash_profile reloaded."
 }
 
 # Print .bash_profile
