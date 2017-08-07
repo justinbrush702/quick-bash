@@ -21,6 +21,12 @@ edit () {
   vi ~/.bash_profile
 }
 
+# Makes a directory and automatically cd's into it
+portal () {
+	mkdir $1
+	cd $1
+}
+
 # End of basic functions
 ################################################################################
 ################################################################################
